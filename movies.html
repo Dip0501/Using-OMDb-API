@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DC Movies - Movies</title>
+    <script src="https://kit.fontawesome.com/bfe293c3f6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./movies.js"></script>
+</head>
+<body id="movies__body">
+    <section>
+        <nav>
+            <div class="nav__container">
+                <img src="./assests/logo.png" class="logo" alt="">
+                <ul class="nav__links">
+                    <li><a href="./index.html" class="nav__link">Home</a></li>
+                    <li><a href="#" class="nav__link">Contact</a></li>
+                    <li><a href="./movies.html" class="nav__link nav__link--primary">Movies</a></li>
+                </ul>
+            </div>
+        </nav>
+    </section>
+
+    <main>
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="movies__header">
+                        <h2 class="section__title">
+                            Browse <span class="blue">Movies</span>
+                        </h2>
+                        <div class="input__wrapper">
+                            <input id="search__Id" class ="form-control"type="text" placeholder="Eg. Fast and Furious">
+                            <button class="header__btn" onclick="browseMovies()"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+                    </div>
+                    <div class="movies">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>
