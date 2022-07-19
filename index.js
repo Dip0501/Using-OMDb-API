@@ -4,5 +4,5 @@ function searchBox(event) {
 }
 
 function onSearch () {
-    window.location.href = `${window.location.origin}./movies.html`
+    window.location.href = `${window.location.origin}/Using-OMDb-API/movies.html`
 }
